@@ -4,7 +4,7 @@ import {View} from 'react-native';
 import {Button} from 'react-native-paper';
 import {LoginStackParamList} from '../components/LoginStack';
 type Props = NativeStackScreenProps<LoginStackParamList, 'Welcome'>;
-function WelcomeScreen({route, navigation}: Props) {
+function WelcomeScreen({navigation}: Props) {
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <View style={{width: '60%', alignSelf: 'center'}}>
